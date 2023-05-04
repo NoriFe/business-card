@@ -1,14 +1,49 @@
-body{
-    background: #2C2141;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+html {
+  box-sizing: border-box;
 }
-.main{
-    background: white;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background: white;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+.person{
+
+}
+.person__description{
+    font-style: 16px;
+    line-height: 22px;
+}
+.person__name{
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+
+}
+.person__position{
+    font-size:18px;
+    color:#545454;
+    margin:0;
+    font-style:italic;
+
+}
+.special{
+    color:#ED6D05;
+    font-weight: normal;
 
 }
