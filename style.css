@@ -8,7 +8,11 @@ html {
 }
 
 body {
-  background: #2c2141;
+  background-image: url(./bkground.jpg);
+  background-position:center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +27,8 @@ body {
   padding: 32px;
 }
 .person{
+  display:flex;
+  align-items: flex-start;
 
 }
 .person__description{
@@ -49,6 +55,10 @@ body {
     margin:0;
     font-style:italic;
 
+}
+.person__picture{
+  margin-right:32px;
+  border-radius: 200px;
 }
 .special{
     color:#ED6D05;
