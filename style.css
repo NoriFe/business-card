@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url(./bkground.jpg);
+  background:#436ee6;
   background-position:center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -68,4 +68,5 @@ body {
 .person__link{
     color:red;
     text-decoration: none;
+    
 }
